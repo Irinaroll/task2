@@ -1,10 +1,16 @@
+.about-us__title {
+font-family: monospace;
+background-color: green;
+}
 .about-us__subtitle{
     color:brown
+
 }
 
 .about-us__title{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     font-size: 30px;
+    font-size: large;
     color: black;
     
 }
