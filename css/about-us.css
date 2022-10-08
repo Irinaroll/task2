@@ -1,33 +1,80 @@
 .about-us {
-font-family: monospace;
 background-color: rgb(245, 242, 236);
-}
+} 
 .photo__about-us {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px; 
-    margin: 0 auto;
-    padding: 105px 90px;
+    margin-left: 500px;
+margin-bottom: 45px;
+display:flex;
+flex-direction:column-reverse;
+background-color: rgb(245, 242, 236) ;
 }
-.about-us__subtitle{
+.about-us__sidebar {
+    
+    width: 370px;
+
+    margin-left: 100px ; 
+}
+.about-us__subtitle{ 
     color: rgb(125, 180, 43); 
-    font-size:  20px;
+    font-size:  15px;
     font-weight: 400;
-    padding: 10px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-}
+    
+    margin-top: 5px;
+    }
 
 .about-us__title{
-    font-family: monospace;
     font-size: 40px;
     font-weight: 900;
     color: rgb(0, 48, 3);
-    
+      
+    margin-top: 0px;
 }
-.about-us__sidebar {
- padding-top: 40px; 
- 
- width: 370px;
+.about-us__info {
+    
+    color: rgb(91, 95, 91);
+    font-size:  15px;
+    font-weight: 400;
+}
+
+.about-us__offer {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 48, 3); 
+    margin-top: 0px;
+}
+.about-us__browse {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255); 
+    padding: 10px 5px; 
+    background-color: rgb(125, 180, 43);
+    border-radius: 40px;
+}
+
+
+.svg__about-us {
+    border-radius: 50%;
+    color:rgb(0, 48, 3);
+    background-color:  rgb(207, 236, 162);
+    padding: 15px;
+  
+}
+.about-us__carousel {
+  
+    margin-left: 50px ;
+}
+display: flex;
+.about-us__carousel__title {
+  color: rgb(0, 48, 3);
+  font-size:  20px;
+  font-weight:bolder;
+  font-weight: 900;
+}
+.about-us__carousel__info {
+color: rgb(91, 95, 91) ;
+}
+.learn-more {
+  font-size:  10px;
+  font-weight: 400;
+  color: rgb(91, 95, 91);
 }
