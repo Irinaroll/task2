@@ -3,6 +3,8 @@
 }
 
 .about-us__title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
     color: black;
-    size: 40px;
+    
 }
