@@ -1,13 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .about-us {
 background-color: rgb(245, 242, 236);
+display: flex;
+justify-content: space-around;
+flex-direction: row-reverse;
 } 
-.photo__about-us {
-    margin-left: 500px;
-margin-bottom: 45px;
-display:flex;
-flex-direction:column-reverse;
-background-color: rgb(245, 242, 236) ;
-}
+
 .about-us__sidebar {
     
     width: 370px;
@@ -59,11 +61,13 @@ background-color: rgb(245, 242, 236) ;
     padding: 15px;
   
 }
+
 .about-us__carousel {
-  
+ 
+ 
     margin-left: 50px ;
 }
-display: flex;
+
 .about-us__carousel__title {
   color: rgb(0, 48, 3);
   font-size:  20px;
