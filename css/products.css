@@ -101,13 +101,44 @@
 .about-us__carousel__info {
     color: rgb(91, 95, 91);
 }
-@media (max-width: 690px) {
+@media (max-width: 320px) {
     .about-us__about {
-        flex-direction: row;
+     display: grid;
+
     }
     .about-us__carousel {
         display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-items:center;
+        align-items:center;
+    }
+}
+@media (max-width: 690px) {
+
+    .about-us__carousel {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        justify-items:center;
+        align-items:center;
+    }
+}
+@media (max-width: 720px) {
+
+    .about-us__carousel {
+        display: grid;
+        grid-template-columns: 1fr 1f 1fr;
+        gap: 30px;
+        justify-items:center;
+        align-items:center;
+    }
+}
+@media (max-width: 1200px) {
+
+    .about-us__carousel {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 30px;
         justify-items:center;
         align-items:center;
