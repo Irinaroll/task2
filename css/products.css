@@ -119,7 +119,7 @@
     }
 }
 
-@media(min-width800px) {
+@media(min-width:800px) {
     .about-us__about {
         display: flex;
         flex-direction: row;
