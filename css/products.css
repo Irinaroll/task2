@@ -103,7 +103,8 @@
 }
 @media (max-width: 320px) {
     .about-us__about {
-     display: grid;
+     display: none;
+     flex-direction: column;
 
     }
     .about-us__carousel {
