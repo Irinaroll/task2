@@ -107,6 +107,9 @@
      flex-direction: column;
 
     }
+    .photo__about-us {
+        width: 344;
+    }
     .about-us__carousel {
         display: grid;
         grid-template-columns: 1fr;
