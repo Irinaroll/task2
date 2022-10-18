@@ -114,8 +114,6 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
-        justify-items:center;
-        align-items:center;
     }
 }
 
@@ -128,6 +126,17 @@
        .about-us__carousel {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        justify-items:center;
+        align-items:center;
+    }
+}
+
+@media(min-width:1000px) {
+
+       .about-us__carousel {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
         justify-items:center;
         align-items:center;
