@@ -106,8 +106,6 @@
     .about-us__about {
         display: flex;
         justify-content: space-around;
-        flex-direction: row-reverse;
-  
     }
    .about-us__carousel {
         display: grid;
