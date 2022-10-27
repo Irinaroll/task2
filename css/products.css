@@ -94,6 +94,23 @@
     color: rgb(91, 95, 91);
 }
 
+.about-us__carousel__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #79a207;
+    border-radius: 50%;
+    color: #0d3c00;
+}
+
+.kind-carousel-prev,
+.kind-carousel-next {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    border-radius: 50%;
+    background-color: #79a207
+}
 
 @media (min-width: 320px) {
     .about-us__carousel {
@@ -108,7 +125,8 @@
         display: flex;
         justify-content: space-around;
     }
-   .about-us__carousel {
+
+    .about-us__carousel {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
