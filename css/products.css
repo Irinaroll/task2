@@ -1,6 +1,5 @@
-.about-us {
+/* .about-us {
     min-width: 370px;
-
 }
 
 .photo__about-us {
@@ -108,7 +107,7 @@
 
     }
     .photo__about-us {
-        width: 344;
+        width: 344px;
     }
     .about-us__carousel {
         display: grid;
@@ -141,4 +140,4 @@
         justify-items:center;
         align-items:center;
     }
-}
+} */
