@@ -7,13 +7,13 @@
         '<div class="carousel-about"><img class="svg__about-us" width="50" src="img/plant_food.svg" alt="Plant Food"></div>',
         '<div class="carousel-about"><img class="svg__about-us" width="50" src="img/garden.svg" alt="Plants for Garden"></div>'
     ];
-    let currentSlideIndx = 0;
+    let currentSlideIdx = 0;
     function renderSlide() {
         const slideContainer = document.querySelector('.about-us__button-js');
-        slideContainer.innerHTML - slides[currentSlideIndx];
+        slideContainer.innerHTML - slides[currentSlideIdx];
     }
     function nextSlide() {
-        currentSlideIndx = currentSlideIndx + 1 > slides.length ? 0 : currentSlideIndx + 1;
+        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
         renderSlide();
     }
     setInterval(nextSlide, 1000);
