@@ -5,7 +5,8 @@
        '<div class="about-us__carousel__item"><img src="img/flowerpots.svg" alt=" " class="about-us__carousel__svg"></div>',
        '<div class="about-us__carousel__item"><img src="img/for-home.svg" alt=" " class="about-us__carousel__svg"></div>',
        '<div class="about-us__carousel__item"><img src="img/garden.svg" alt=" " class="about-us__carousel__svg"></div>',
-       '<div class="about-us__carousel__item"><img src="img/plant_food.svg" alt=" " class="about-us__carousel__svg"></div>'
+       '<div class="about-us__carousel__item"><img src="img/plant_food.svg" alt=" " class="about-us__carousel__svg"></div>',
+       '<div class="about-us__carousel__item"><img src="img/soil_for_plants.svg" alt=" " class="about-us__carousel__svg"></div>'
     ];
     let currentSlideIndx = 0;
     function renderSlide() {
