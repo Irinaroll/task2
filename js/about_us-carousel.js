@@ -1,11 +1,11 @@
 (function() {
 
     const slides = [
-       '<div class="about-us__carousel__item"><img src="img/consultations.png" alt=" " class="about-us__carousel__png"></div>',
-       '<div class="about-us__carousel__item"><img src="img/flowerpots.png" alt=" " class="about-us__carousel__png"></div>',
-       '<div class="about-us__carousel__item"><img src="img/for-home.png" alt=" " class="about-us__carousel__png"></div>',
-       '<div class="about-us__carousel__item"><img src="img/garden.png" alt=" " class="about-us__carousel__png"></div>',
-       '<div class="about-us__carousel__item"><img src="img/plant_food.png" alt=" " class="about-us__carousel__png"></div>'
+       '<div class="about-us__carousel__item"><img src="img/consultations.svg" alt=" " class="about-us__carousel__svg"></div>',
+       '<div class="about-us__carousel__item"><img src="img/flowerpots.svg" alt=" " class="about-us__carousel__svg"></div>',
+       '<div class="about-us__carousel__item"><img src="img/for-home.svg" alt=" " class="about-us__carousel__svg"></div>',
+       '<div class="about-us__carousel__item"><img src="img/garden.svg" alt=" " class="about-us__carousel__svg"></div>',
+       '<div class="about-us__carousel__item"><img src="img/plant_food.svg" alt=" " class="about-us__carousel__svg"></div>'
     ];
     let currentSlideIndx = 0;
     function renderSlide() {
