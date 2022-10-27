@@ -1,5 +1,4 @@
 (function () {
-
     const slides = [
         '<div class="slide"><img src="img/soil_for_plants.svg" alt="Soil for Plants"></div>',
         '<div class="slide"><img src="img/for_home.svg" alt="Plants for Home"></div>',
