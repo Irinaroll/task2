@@ -109,6 +109,14 @@
     border-radius: 50%;
     background-color: #79a207
 }
+.about-us__carousel-js  {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us__carousel-container {
+    display: flex;
+} 
 
 @media (min-width: 320px) {
     .about-us__carousel {
