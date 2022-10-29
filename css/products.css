@@ -116,7 +116,7 @@
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    .photo__about-us {
+    .photo__about {
         width: 344px;
     }
 }
@@ -134,7 +134,7 @@
         justify-items: center;
         align-items: center;
     }
-    .photo__about-us {
+    .photo__about {
         width: 544px;
     }
 }
@@ -147,7 +147,7 @@
         justify-items: center;
         align-items: center;
     }
-    .photo__about-us {
+    .photo__about {
         width: 644px;
     }
 }
