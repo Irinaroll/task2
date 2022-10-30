@@ -103,11 +103,11 @@
     width: 100px;
 }
 
-.kind-carousel-prev,
-.kind-carousel-next {
+.about-us__carousel-prev,
+.about-us__carousel-next {
     display: flex;
     border-radius: 50%;
-    background-color: #79a207
+    background-color: #79a207;
 }
 .about-us__carousel-js  {
     display: flex;
